@@ -81,7 +81,7 @@ h6 {
 
 #header h1 a,
 #header h1 a:hover {
-  color:black;
+  color: black;
   line-height: 1;
   display: inline-block;
 }
@@ -1192,4 +1192,8 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+.resume-item {
+  color: white;
 }
