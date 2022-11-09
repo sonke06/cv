@@ -14,18 +14,25 @@ body {
   color: rgb(12, 12, 12);
   position: relative;
   background: transparent;
+
+
 }
 
 body::before {
   content: "";
+  background-repeat: no-repeat;
   position: fixed;
   background-color: #040404;
   background-size: cover;
+  background-position: 0px -200px;
+  filter: grayscale(100%);
+
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
   z-index: -1;
+  background-image: url(/background_Img.jpg)
 }
 
 @media (min-width: 1024px) {
@@ -101,6 +108,8 @@ h6 {
 #header img {
   padding: 0;
   margin: 0;
+
+
 }
 
 #header .social-links {
@@ -509,7 +518,11 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+
+}
+.progress-bar
+{
+  background-color:transparent;
 }
 
 /*--------------------------------------------------------------
@@ -1142,6 +1155,15 @@ section .container {
   background: #15bb62;
 }
 
+.container {
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(73, 71, 71, 0.21);
+  width: 500px;
+  margin-left: 50px;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1196,4 +1218,8 @@ section .container {
 
 .resume-item {
   color: white;
+}
+
+img {
+  margin-right: 20%;
 }
