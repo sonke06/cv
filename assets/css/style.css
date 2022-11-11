@@ -32,7 +32,7 @@ body::before {
   top: 0;
   height: 100vh;
   z-index: -1;
-  background-image: url(../sonke.Img.jpg.jpg)
+  background-image: url(/assets/sonke.jpg)
 }
 
 @media (min-width: 1024px) {
@@ -520,9 +520,9 @@ section .container {
   transition: 0.9s;
 
 }
-.progress-bar
-{
-  background-color:transparent;
+
+.progress-bar {
+  background-color: transparent;
 }
 
 /*--------------------------------------------------------------
