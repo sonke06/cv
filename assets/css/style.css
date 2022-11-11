@@ -18,6 +18,7 @@ body {
 
 }
 
+
 body::before {
   content: "";
   background-repeat: no-repeat;
@@ -75,6 +76,7 @@ h6 {
 
 #header * {
   transition: ease-in-out 0.3s;
+  background-color: #040404;
 }
 
 #header h1 {
@@ -114,7 +116,11 @@ h6 {
 
 #header .social-links {
   margin-top: 40px;
-  display: flex;
+  display: flex;`i
+}
+
+.bi {
+  color: white;
 }
 
 #header .social-links a {
@@ -153,6 +159,7 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #040404;
   }
 }
 
@@ -179,6 +186,7 @@ h6 {
 #header.header-top .container {
   display: flex;
   align-items: center;
+  
 }
 
 #header.header-top .navbar {
@@ -363,7 +371,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(23, 22, 22, 0.9);
   padding: 30px;
 }
 
@@ -464,7 +472,7 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(11, 11, 11, 0.913);
   padding: 12px;
   color: #18d26e;
   border-radius: 50px;
