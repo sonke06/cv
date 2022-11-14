@@ -541,6 +541,7 @@ section .container {
 .icon-box {
   color: white;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .interests .icon-box {
