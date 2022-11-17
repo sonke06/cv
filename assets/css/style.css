@@ -1223,8 +1223,9 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color: black;
   transition: 0.3s;
+  padding-left: -5px;
 }
 
 .credits a:hover {
@@ -1238,3 +1239,4 @@ section .container {
 img {
   margin-right: 20%;
 }
+
