@@ -34,6 +34,7 @@ body::before {
   height: 100vh;
   z-index: -1;
   background-image: url(../css/sonke.jpg);
+  margin: 3rem;
 }
 
 @media (min-width: 1024px) {
@@ -1240,3 +1241,10 @@ img {
   margin-right: 20%;
 }
 
+p {
+  color: white;
+  font-weight: bolder;
+}
+.info-box {
+  margin-top: 4px;
+}
